@@ -62,11 +62,13 @@
 
             <TextView
                 android:id="@+id/url"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="18dp"
-                android:text="url" />
+                android:text="url"
+                android:background="@color/plaeblue"
+                android:gravity="center"/>
 
             <ImageView
                 android:id="@+id/imageView2"

@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
     protected void sendEmail(){
 
         String[] TO = {""};
-        String[] CC = {""};
+        String[] CC = {"ICE@dongguk.com"};
 
         Intent emailIntent = new Intent(Intent.ACTION_SEND);
         emailIntent.setData(Uri.parse("mailto:"));
